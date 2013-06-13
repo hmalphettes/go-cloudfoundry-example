@@ -14,4 +14,6 @@ Based on [Go on Heroku](https://gist.github.com/kr/299535bbf56bf3016cba).
 ## Differences with the original buildpack
 
 * Some bits and pieces related to python were removed.
-* 
+* The '.godir' file is named '_godir': cf will omit to upload files that start with '.' by default.
+
+Follow the PR here as we improve things: https://github.com/vito/heroku-buildpack-go/pull/1
