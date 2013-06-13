@@ -1,0 +1,9 @@
+---
+applications:
+- name: gocf
+  memory: 64M
+  instances: 1
+  url: gocf.cfapps.io
+  path: .
+  buildpack: git://github.com/hmalphettes/heroku-buildpack-go.git
+
